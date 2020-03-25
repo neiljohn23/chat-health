@@ -1,0 +1,502 @@
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+.page-content {
+    width: 80%;
+    margin: 0 auto;
+    transition: all 0.4s;
+}
+
+#logo_css {
+
+    margin-top:45px;
+    margin-left:25px;
+    margin-bottom:20px;
+}
+
+h4 {
+
+    color:white;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+p {
+    font-size:14px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+.margin_style {
+
+    margin-bottom:7px;
+}
+
+.li_style {
+
+    color:white;
+    margin-left:25px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.li_style:hover {
+
+    color:white;
+    background-color:deeppink;
+    text-decoration:none;
+    padding:3px;
+    border:none;
+    border-radius:3px;
+}
+
+.li_style:active {
+
+    color: gainsboro;
+    text_decoration:none;
+}
+
+.navstyle {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2px solid #ff7702;
+}
+
+.home_button {
+
+    margin-bottom:40px;
+    background-color:#000;
+    border:2px solid black;
+    font-size:14px;
+    font-weight:bold;
+    font-family: 'Rubik', sans-serif;
+    border-radius:5px;
+    color:white;
+
+
+}
+
+.home_button a{
+
+    text-decoration:none;
+    color:black;
+    padding-left:5px;
+
+}
+
+.home_button a:hover{
+
+    text-decoration:none;
+    color:black;
+    padding-left:10px;
+
+}
+
+h5 {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.tri_button {
+
+    margin-left:20px;
+    margin-bottom:20px;
+    background-color:silver;
+    border:2px solid white;
+    border-radius:4px;
+    font-size:14px;
+    font-weight:bold;
+    font-family: 'Rubik', sans-serif;
+
+
+
+}
+
+.about_button {
+
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:15px;
+    margin-bottom:15px;
+    display:block;
+    background-color:white;
+    border-bottom:2px solid black;
+}
+
+img {
+    border:2px solid silver;
+    width:140px;
+    border-radius:100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.heading_about {
+
+    text-align:center;
+    padding-left:0px;
+}
+
+.about_div {
+
+    background-color:white;
+    border-right:none;
+    display: inline-block;
+}
+
+[data-tooltip] {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-bottom: 5px;
+    margin-left: -80px;
+    padding: 7px;
+    width: 400px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    border: #000 2px solid;
+    background-color: #fff;
+    color: #000;
+    content: attr(data-tooltip);
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight:bold;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid #000;
+    border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+a:active {
+    text-decoration:none;
+}
+
+/* INDEX/INTRODUCTION PAGE! */
+
+.logo_css {
+    padding:25px;
+    margin-top:30px;
+}
+.logo_css a {
+    text-decoration:none;
+    color:white;
+
+
+}
+
+.logo_css p {
+
+   color:white;
+
+}
+
+
+.sub_category {
+    margin-left:25px;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    font-family: 'Rubik', sans-serif;
+    border-bottom:2px solid white;
+    display:inline-block
+
+}
+
+.intro h2{
+    color:black;
+}
+
+.intro hr {
+    width:100%;
+}
+
+.intro p {
+    font-size:16px;
+    color:black;
+}
+
+.duo-div {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.square {
+
+    width:50%;
+    height:100%;
+    border-left:1px solid black;
+    background-color:white;
+    border-right:none;
+    float:left;
+
+}
+
+.square p {
+    padding:20px;
+}
+
+/* HOW TO USE */
+
+#text-bot {
+    width:100%;
+    display:inline-block;
+    background-color:darkgray;
+    border-radius:10px;
+    border:2px solid silver;
+    margin-bottom:35px;
+}
+
+#text-bot div {
+    padding:20px;
+}
+
+#text-bot h4 {
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+}
+
+#text-bot p {
+    font-size:16px;
+}
+
+#telegram-bot {
+    width:100%;
+    display:inline-block;
+    background-color:gainsboro;
+    border-radius:10px;
+}
+
+#telegram-bot div {
+    padding:20px;
+}
+
+#telegram-bot h4 {
+    font-size:22px;
+    font-weight:bold;
+    color:black;
+}
+
+#telegram-bot p {
+    font-size:16px;
+}
+
+/* PUBLIC HEALTH VOLUNTEERS */
+
+#public_health_volunteers {
+    width:100%;
+    display:inline-block;
+    background-color:darkgray;
+    border-radius:10px;
+    border:2px solid silver;
+    margin-bottom:35px;
+}
+
+#public_health_volunteers div {
+    padding:20px;
+}
+
+#public_health_volunteers h4 {
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+}
+
+#public_health_volunteers p {
+    font-size:16px;
+}
+
+/* BASIC INFORMATION */
+
+#basicinformation-div {
+    background-color:#ffffff;
+    padding:20px;
+    border-radius:7px;
+    margin-top:40px;
+    border:2px solid black;
+}
+
+#basicinformation-div h5 {
+    padding-left:0px;
+    color:black;
+    font-weight:bold;
+    padding-bottom:7px;
+    font-size:25px;
+}
+
+#basicinformation-div ul {
+    padding-left:20px;
+    padding-top:5px;
+}
+
+#basicinformation-div li {
+    font-size:18px;
+    color:black;
+    padding-left:0px;
+}
+
+.pink_underline {
+    text-decoration:none;
+    border-bottom:2px solid deeppink;
+    color:black;
+}
+
+.deep_pink {
+    color:deeppink;
+    font-weight:bold;
+}
+
+.origins {
+    width:100%;
+    border:none;
+    background-color:white;
+    border-radius:10px;
+    display:inline-block;
+}
+
+.left {
+    width:50%;
+    float:left;
+}
+
+.right {
+    width:50%;
+    padding-left:20px;
+    padding-bottom:20px;
+    float:right;
+    padding-top:20px;
+    padding-right:20px;
+}
+
+.left h5 {
+    padding-left:0px;
+    font-size:22px;
+    color:#000000;
+}
+
+.left p {
+    font-size:18px;
+    color:#000000;
+}
+
+.orange {
+    color:#ff7600;
+    font-weight:bold;
+}
+
+.deeporange {
+    color:orangered;
+    font-weight: bold;
+}
+
+.right p {
+    font-size:18px;
+    color:#000000;
+}
+
+.origins hr {
+    width:100%;
+    border-bottom:2px solid black;
+}
+
+@media (max-width: 1023px) {
+    .square {
+        width:100%!important;
+    }
+    .page-content {
+        width:100%;
+    }
+    .navstyle {
+        width:100%;
+    }
+    .left{
+        width:100%;
+    }
+    .right {
+        width:100%;
+    }
+    [data-tooltip]:before {
+        position: absolute;
+        bottom: 150%;
+        left: 50%;
+        margin-bottom: 5px;
+        margin-left: -80px;
+        padding: 7px;
+        width: 200px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 5px;
+        border: #000 2px solid;
+        background-color: #fff;
+        color: #000;
+        content: attr(data-tooltip);
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight:bold;
+    }
+    .tri_div {
+        width:100%!important;
+    }
+
+
+
+}
