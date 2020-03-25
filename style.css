@@ -136,6 +136,7 @@ h5 {
 img {
     border:2px solid silver;
     width:140px;
+    height:140px;
     border-radius:100px;
     margin: 0 auto;
     display: block;
@@ -457,7 +458,7 @@ a:active {
     border-bottom:2px solid black;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1220px) {
     .square {
         width:100%!important;
     }
