@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chat Health</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bdced515aa.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navstyle">
+            <a class="navbar-brand" href="index.html"><img src="0.png" style="width:25px;height:25px;margin-right:5px;display: inline-block;"> Chat health</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="qanda.html">Q&A</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="basicinformation.html">Basic information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="importantresources.html">Important resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="updates.html">Updates</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            The bot
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="knowledgedatabase.html">Public Health Volunteers</a>
+                            <a class="dropdown-item" href="howtouse.html">How to use the bots</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="feedback.html">Feedback</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="page-content p-5">
+            <div class="intro" style="margin-bottom:30px">
+                <h2>Q&A</h2>
+                <hr>
+                <p> <i>Learn more about some of the biggest misconceptions about COVID-19 with information from Dr. Lisa Lockerd Maragakis of Johns Hopkins University School of Medicine.</i></p>
+
+            </div>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-align: left;color:black;text-decoration:none;font-weight:bold">
+                                TRUE or FALSE? A vaccine to cure COVID-19 is available.
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            FALSE. There is no vaccine for the new coronavirus right now. Scientists have already begun working on one, but developing a vaccine that is safe and effective in human beings will take many months.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="text-align: left;color:black;text-decoration:none;font-weight:bold">
+                                TRUE or FALSE? You can protect yourself from COVID-19 by swallowing or gargling with bleach, taking acetic acid or steroids, or using essential oils, salt water, ethanol or other substances.
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            FALSE. None of these recommendations protects you from getting COVID-19, and some of these practices may be dangerous. The best ways to protect yourself from this coronavirus (and other viruses) include:
+                            <ul>
+                                <li>
+                                    Washing your hands frequently and thoroughly, using soap and hot water.
+                                </li>
+                                <li>
+                                    Avoiding close contact with people who are sick, sneezing or coughing.
+                                </li>
+                                <li>
+                                    In addition, you can avoid spreading your own germs by coughing into the crook of your elbow and staying home when you are sick.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="text-align: left;color:black;text-decoration:none;font-weight:bold">
+                                TRUE or FALSE? The new coronavirus was deliberately created or released by people.
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            FALSE. Viruses can change over time. Occasionally, a disease outbreak happens when a virus that is common in an animal such as a pig, bat or bird undergoes changes and passes to humans. This is likely how the new coronavirus came to be.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="text-align: left;color:black;text-decoration:none;font-weight:bold">
+                                TRUE or FALSE? Ordering or buying products shipped from China will make a person sick.
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            FALSE. Researchers are studying the new coronavirus to learn more about how it infects people. As of this writing, scientists note that most viruses like this one do not stay alive for very long on surfaces, so it is not likely you would get COVID-19 from a package that was in transit for days or weeks. The illness is most likely transmitted by droplets from an infected person’s sneeze or cough, but more information is emerging daily.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree" style="text-align: left;color:black;text-decoration:none;font-weight:bold">
+                                TRUE or FALSE? A face mask will protect you from COVID-19.
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">
+                            FALSE. Certain models of professional, tight-fitting respirators (such as the N95) can protect health care workers as they care for infected patients. For the general public without respiratory illness, wearing lightweight disposable surgical masks is not recommended. Because they don’t fit tightly, they may allow tiny infected droplets to get into the nose, mouth or eyes. Also, people with the virus on their hands who touch their face under a mask might become infected. People with a respiratory illness can wear these masks to lessen their chance of infecting others. Bear in mind that stocking up on masks makes fewer available for sick patients and health care workers who need them.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer style="border-top: 2px solid #ff7702;width:80%;margin:0 auto">
+            <p style="font-size:16px;padding-top:20px;padding-bottom:20px">University of Maryland School of Public Health | Made with <i class="fas fa-heart"></i> by Jesse Anderson | <a href="privacypolicy.html" style="color:black">Privacy Policy</a></p>
+        </footer>
+    </body>
+</html>
